@@ -42,12 +42,6 @@ pipelines:
                - exec:
                   command: echo terraform plan
       - terraform_apply:
-          approval:
-            type: manual
-            roles:
-                - administrator
-            users:
-                - administrator
           jobs:
             terraform_apply:
               tasks:
