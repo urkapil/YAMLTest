@@ -58,5 +58,5 @@ pipelines:
                    source: binaries/
                    destination: binaries/ #fetching artifacts
                - exec:
-                  command: ec terraform apply             
+                  command: ec terraform apply              
  
