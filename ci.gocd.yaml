@@ -7,12 +7,12 @@ pipelines:
     materials:
       code:  # this is the name of material
         # says about type of material and url at once
-        git: https://github.com/imsankar/YAML.git
+        git: https://github.com/urkapil/YAMLTest.git
         destination: Maven
         materials:
       terraform:  # this is the name of material
         # says about type of material and url at once
-        git: https://github.com/imsankar/Terraform.git
+        git: https://github.com/urkapil/Terraform.git
         destination: terraform
     stages:
       - build: 
